@@ -92,7 +92,7 @@ void setup() {
 void loop() {
   //
   //  fake numbers, real would come from a sensor
-  /   could also use the built in temp sensor on RFM69:
+  //   could also use the built in temp sensor on RFM69:
   //  byte temperature =  radio.readTemperature(-1);
   float temperature = random(0, 45);
   float humidity = random(10, 99);
